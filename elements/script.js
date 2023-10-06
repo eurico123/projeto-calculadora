@@ -18,5 +18,7 @@ function calcular(){
     var res = document.getElementById('res').innerHTML
     if (res){
         document.getElementById('res').innerHTML = eval(res)
+    } else {
+        document.getElementById('res').innerHTML = 'Nada...'
     }
 }
